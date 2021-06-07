@@ -1,0 +1,15 @@
+Algoritmo Ejercicio1
+	Escribir 'Ingrese un numero entero: '
+	Leer N
+	contador <- 0
+	pares <- 0
+	impares <- 0
+	Mientras contador<N Hacer
+		rnd <- aleatorio(1,100)
+		Si rnd MOD 2==0 Entonces
+			pares <- pares+1
+		SiNo
+			impares <- impares+1
+		FinSi
+	FinMientras
+FinAlgoritmo
